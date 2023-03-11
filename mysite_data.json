@@ -1,0 +1,810 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-12-31T18:10:32.726Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "first post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-12-31T18:11:31.472Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "dasha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-12-31T18:13:12.758Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "second post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-12-31T19:21:30.148Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "first post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-01-01T12:57:50.743Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Meet Gary",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-01-01T12:58:31.918Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Meet Leon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-01-01T12:59:03.768Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Meet Pat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-01-03T18:54:15.758Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by rhk on Meet Gary",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-01-05T22:07:00.877Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "jazz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-01-05T22:07:26.941Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "first post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-01-05T22:07:38.706Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "first post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-01-06T22:16:50.801Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "markdown format",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-01-06T22:25:38.527Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "markdown format",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add posts",
+    "content_type": 7,
+    "codename": "add_posts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change posts",
+    "content_type": 7,
+    "codename": "change_posts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete posts",
+    "content_type": 7,
+    "codename": "delete_posts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view posts",
+    "content_type": 7,
+    "codename": "view_posts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$GbvzfezIEyFKbawkCzEAcP$3yBNAy7FffjzZEDntUKEFSa2TFSabxy3oUY0UupxufI=",
+    "last_login": "2023-01-05T22:06:29.488Z",
+    "is_superuser": true,
+    "username": "rhk",
+    "first_name": "",
+    "last_name": "",
+    "email": "hamid.chayeb97@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-12-31T18:01:18.704Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$kSAO0IW3VVFLnzrkwrIt2U$2Zi5FTt5iSl1F2UXojFGASMz13+1C4MJzKz6wazZ06c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "dasha",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-31T18:11:31.349Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "posts"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8fzipq09qxq8z7pyw08g25ie2flttlyp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMoBL956BDMwgVQNJaVeNd9cmXej2v_f-JiKuS43r4DlOJC5Ci9PvljA_ue2AHtjuXebelnlKclfkQYe8deLX9XD_DiqO-q3BsCqKqASDQbliQGu2xcFZafTBZVClEFomMOC1tp48e-RgMqSsknh_AODsOBE:1pCmOv:kmLt6YhUkMAF7cLzErENqcydMtJ9f43YqemYmie-J5A",
+    "expire_date": "2023-01-17T18:52:41.247Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e5pv15ui8cdlxkwsopmxxrb8tj8frbwh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMoBL956BDMwgVQNJaVeNd9cmXej2v_f-JiKuS43r4DlOJC5Ci9PvljA_ue2AHtjuXebelnlKclfkQYe8deLX9XD_DiqO-q3BsCqKqASDQbliQGu2xcFZafTBZVClEFomMOC1tp48e-RgMqSsknh_AODsOBE:1pBxsx:rinKJ2CQnm1FeoNXwbRsEEBj3mdx0uH5k_MKG1sW5NM",
+    "expire_date": "2023-01-15T12:56:19.181Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "owlwaujpo0za124sxqsb0nwuxt9wiczj",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMoBL956BDMwgVQNJaVeNd9cmXej2v_f-JiKuS43r4DlOJC5Ci9PvljA_ue2AHtjuXebelnlKclfkQYe8deLX9XD_DiqO-q3BsCqKqASDQbliQGu2xcFZafTBZVClEFomMOC1tp48e-RgMqSsknh_AODsOBE:1pDYNZ:RVLPVaIxSMxxS1IKdEZDSyrgulUm4KQzjX5HqE0xplY",
+    "expire_date": "2023-01-19T22:06:29.499Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "umjpwa5l6y3r9w9f5lcjvp7z8tgdqhqy",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAIMoBL956BDMwgVQNJaVeNd9cmXej2v_f-JiKuS43r4DlOJC5Ci9PvljA_ue2AHtjuXebelnlKclfkQYe8deLX9XD_DiqO-q3BsCqKqASDQbliQGu2xcFZafTBZVClEFomMOC1tp48e-RgMqSsknh_AODsOBE:1pBgIY:j1IY4Yc1EF7Bfrd5pNtf9M0hUItnzExTZb9DxVY5Yog",
+    "expire_date": "2023-01-14T18:09:34.770Z"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 1,
+  "fields": {
+    "title": "first post",
+    "slug": "first-post",
+    "body": "hello evry body",
+    "author": 1,
+    "publish": "2022-12-31T18:09:49Z",
+    "created": "2022-12-31T18:10:32.722Z",
+    "updated": "2023-01-05T22:07:38.690Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 2,
+  "fields": {
+    "title": "second post",
+    "slug": "second-post",
+    "body": "we are creating a django blog",
+    "author": 2,
+    "publish": "2022-12-31T18:11:40Z",
+    "created": "2022-12-31T18:13:12.753Z",
+    "updated": "2022-12-31T18:13:12.753Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 3,
+  "fields": {
+    "title": "Meet Gary",
+    "slug": "meet-gary",
+    "body": "He’s a very loud and charismatic New Yorker who gained internet fame as the crazy and outgoing host of Wine Library TV, a video blog that obsessively talked about everything related to wine. Through online video blogging (commonly known as vlogging), he built his wine business from a $3-million-dollar-a-year wine retail store to a $60 million dollar wine wholesale business.\r\n\r\nGary Vaynerchuk has built a multi-million dollar empire relating to his personal brand. He’s a two-time best-selling author and co-founder of Vayner Media, a very large digital marketing agency that works with some of the largest brands in the world.\r\n\r\nHe’s been featured in The Wall Street Journal, GQ, and Time Magazine, as well as appeared on Late Night with Conan O’Brien and The Ellen DeGeneres Show.\r\n\r\nHis inspirational blog provides details about social media, the latest business trends, and the occasional inspirational blogs about life. He has an incredible amount of depth to these topics and his blunt direction helps you to focus on what matters.",
+    "author": 1,
+    "publish": "2023-01-01T12:56:22Z",
+    "created": "2023-01-01T12:57:50.727Z",
+    "updated": "2023-01-01T12:57:50.727Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 4,
+  "fields": {
+    "title": "Meet Leon",
+    "slug": "meet-leon",
+    "body": "Leon’s career started at Red Hat, where he worked as a software engineer, and because of his work ethic, he quickly became the youngest manager in the company, overseeing a global team. However, he soon realized that hard work wasn’t enough to cope with the increasing complexity and requirements of the job. Before he knew it, he was in search of ways to go beyond his “fixed ability” and invested heavily in researching everything he could on productivity and management.\r\n\r\nBecause of what he learned, it didn’t take long for him to outpace the demands of his work — and by his mid-20s he had already successfully managed over 150 engineering projects. In the span of less than 5 years, he achieved more than what most project managers could do in 10.\r\n\r\nThat’s when he realized that he could use this knowledge to help anyone in the world who was stuck somewhere in their lives. So, he left his job at Red Hat to dedicate his time to sharing this information through Lifehack.org.",
+    "author": 2,
+    "publish": "2023-01-01T12:57:54Z",
+    "created": "2023-01-01T12:58:31.907Z",
+    "updated": "2023-01-01T12:58:31.907Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 5,
+  "fields": {
+    "title": "Meet Pat",
+    "slug": "meet-pat",
+    "body": "Pat is one of the most inspirational bloggers in the world. After losing his job a few years into his career, he was forced to scramble to support his growing family. He started a website called “SmartPassiveIncome.com” to track his progress with various websites and online money-making projects.\r\n\r\nWhat started as a small inspirational blog for himself grew into one of the best blogs around the world when it comes to making money.\r\n\r\nHe has since built a massive following and readership thanks to his transparency and honesty. Still to this day, Pat discloses his monthly earnings to readers, which has inspired countless individuals.\r\n\r\nPat currently attends industry conferences, runs a regular podcast for his readers, and spends as much time as he can with his family. Pat has earned, on average, around $50,000 USD per month.",
+    "author": 1,
+    "publish": "2023-01-01T12:58:47Z",
+    "created": "2023-01-01T12:59:03.752Z",
+    "updated": "2023-01-01T12:59:03.752Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.posts",
+  "pk": 6,
+  "fields": {
+    "title": "markdown format",
+    "slug": "markdown-format",
+    "body": "this post formatted with markdown format\r\n___________________________________________\r\n\r\n*This is emphasized*and**this is more emphasized**\r\n\r\n* one\r\n* two\r\n* three\r\n\r\nand a [link to the django website](www.djangoproject.com/)",
+    "author": 1,
+    "publish": "2023-01-06T22:14:40Z",
+    "created": "2023-01-06T22:16:50.776Z",
+    "updated": "2023-01-06T22:25:38.519Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 3,
+    "name": "rhk",
+    "email": "hamid.chayeb97@gmail.com",
+    "body": "is good",
+    "created": "2023-01-03T18:54:15.758Z",
+    "updated": "2023-01-03T18:54:15.758Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+}
+]
